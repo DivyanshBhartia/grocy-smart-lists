@@ -61,7 +61,23 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				grocery: {
+					primary: 'hsl(var(--grocery-primary))',
+					'primary-light': 'hsl(var(--grocery-primary-light))',
+					accent: 'hsl(var(--grocery-accent))',
+					text: 'hsl(var(--grocery-text))',
+					'text-light': 'hsl(var(--grocery-text-light))',
+					bg: 'hsl(var(--grocery-bg))',
+					card: 'hsl(var(--grocery-card))'
 				}
+			},
+			boxShadow: {
+				'card': 'var(--shadow-card)',
+				'card-hover': 'var(--shadow-card-hover)'
+			},
+			transitionTimingFunction: {
+				'smooth': 'var(--transition-smooth)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
